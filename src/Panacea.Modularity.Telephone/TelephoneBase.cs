@@ -15,7 +15,7 @@ namespace Panacea.Modularity.Telephone
             Account = account;
         }
 
-        
+        public abstract void SetAudioDevices(string speakers, string microphone);
 
         public string CurrentNumber { get; protected set; }
         public virtual bool IsBusy { get; protected set; }
