@@ -8,5 +8,6 @@ namespace Panacea.Modularity.Telephone
 {
     public interface ITelephonePlugin : IPlugin
     {
+        void Call(string number);
     }
 }
